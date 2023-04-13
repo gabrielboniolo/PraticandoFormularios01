@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type = text], textarea, select {
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    outline: none;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+}
+
+button:hover {
+    background-color: #DDD;
+}
